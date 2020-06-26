@@ -1,6 +1,6 @@
 FROM mariadb:latest
 
 ENV MYSQL_ROOT_PASSWORD admin123
-ENV MYSQL_DATABASE curso
+ENV MYSQL_DATABASE cours
 
-ADD datos/cargaDatos.sql /docker-entrypoint-initdb.d/cargaDatos.sql
+ADD donnees/chargerDonnees.sql /docker-entrypoint-initdb.d/chargerDonnees.sql
