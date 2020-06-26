@@ -9,8 +9,8 @@ CREATE TABLE Personnes (
     Population varchar(255)
 );
 
-INSERT INTO Personnes(PersonneID,Prenom,Nom1,Nom2,Adresse,Poblacion) VALUES
+INSERT INTO Personnes(PersonneID,Prenom,Nom1,Nom2,Adresse,Population) VALUES
 	(1,"BrahimoLeGrand","Sadji","jeSaisPas","Toulouse","Toulouse");
 	
-INSERT INTO Personnes(PersonneID,Prenom,Nom1,Nom2,Adresse,Poblacion) VALUES
+INSERT INTO Personnes(PersonneID,Prenom,Nom1,Nom2,Adresse,Population) VALUES
 	(2,"KhalidLeGrand","Bachiren","jeSaisPas","Montpellier","Montpellier");
